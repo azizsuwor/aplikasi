@@ -31,7 +31,7 @@
                           <Component id="Asegitiga" alignment="0" max="32767" attributes="0"/>
                           <Component id="Apersegi" alignment="0" max="32767" attributes="0"/>
                           <Component id="Alingkaran" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Apersegipanjang" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Apersegipanjang" alignment="0" pref="116" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -88,7 +88,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="Asegitiga">
       <Properties>
-        <Property name="text" type="java.lang.String" value="segitiga_sama_sisi"/>
+        <Property name="text" type="java.lang.String" value="segitiga"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AsegitigaActionPerformed"/>

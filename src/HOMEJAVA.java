@@ -54,7 +54,7 @@ public class HOMEJAVA extends javax.swing.JFrame {
             }
         });
 
-        Asegitiga.setText("segitiga_sama_sisi");
+        Asegitiga.setText("segitiga");
         Asegitiga.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AsegitigaActionPerformed(evt);
@@ -76,7 +76,7 @@ public class HOMEJAVA extends javax.swing.JFrame {
                             .addComponent(Asegitiga, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(Apersegi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(Alingkaran, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Apersegipanjang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(Apersegipanjang, javax.swing.GroupLayout.DEFAULT_SIZE, 116, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(107, 107, 107)
                         .addComponent(jLabel1)))
@@ -103,7 +103,7 @@ public class HOMEJAVA extends javax.swing.JFrame {
 
     private void ApersegiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ApersegiActionPerformed
         // TODO add your handling code here:
-        new persegi().setVisible(true);
+        new persegi().setVisible("true");
     }//GEN-LAST:event_ApersegiActionPerformed
 
     private void AlingkaranActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AlingkaranActionPerformed
